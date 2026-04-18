@@ -69,7 +69,7 @@ PrimeJoinEvents **не намагається бути всім одразу**. 
 
 ## 👤 Автор
 
-Володар котячої магії, о великий - **BrockerDev**.
+Володар котячої магії, о великий - **Брокер**.
 
-*Плагін створений для серверу PrimeCube Network* - 
-https://discord.gg/vW3t7bUK
+*Плагін створений для серверу PrimeCube* - 
+https://discord.gg/YNt9sWQ8br
