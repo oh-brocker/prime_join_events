@@ -1,0 +1,47 @@
+# ==========================================================
+#              PrimeJoinEvents Configuration
+#       Розроблено спеціально для PrimeCube Network
+#                  Автор: BrockerDev
+#            https://github.com/BrockerDev
+# ==========================================================
+
+events:
+  # Налаштування для гравців, які вже грали на сервері
+  regular:
+    # Чат-повідомлення (підтримує MiniMessage та HEX-градієнти)
+    chat: "<gray>[<gradient:#55ff55:#00aa00>+</gradient>] <white>З поверненням, <gradient:#55ff55:#ffffff>%player%</gradient>! <dark_gray>(<white>#%online%</white>)</dark_gray>"
+
+    # Налаштування заголовка на весь екран
+    title-main: "<gradient:#4facfe:#00f2fe><bold>Привіт!</bold></gradient>"
+    title-sub: "<gray>Приємно бачити тебе знову, <white>%player%</white>!"
+
+    # Налаштування звуку
+    sound:
+      key: "minecraft:entity.player.levelup"
+      pitch: 1.2
+      volume: 1
+      source: "PLAYER" # MASTER, MUSIC, RECORDS, WEATHER, BLOCKS, HOSTILE, NEUTRAL, PLAYER, AMBIENT, VOICE
+
+  # Налаштування для тих, хто зайшов ВПЕРШЕ
+  first-join:
+    # Особливе привітання для всього сервера
+    chat: "<gradient:#fbff00:#ffae00><bold>НОВА КРОВ!</bold></gradient> <white>Вітаємо <gradient:#fbff00:#ffffff>%player%</gradient> на нашому проекті!"
+
+    # Заголовок для новачка
+    title-main: "<gradient:#f12711:#f5af19><bold>ВІТАЄМО ВДОМА!</bold></gradient>"
+    title-sub: "<white>Твоя пригода починається саме зараз.</white>"
+
+    # Унікальний звук для новачка
+    sound:
+      key: "minecraft:ui.toast.challenge_complete"
+      pitch: 1.0
+      volume: 1
+      source: "MASTER"
+
+# Повідомлення про вихід
+events.quit-message: "<gray>[<gradient:#ff5f6d:#ffc371>-</gradient>] <white>%player% покидає нас. Чекаємо на повернення!"
+
+# Додаткові системні налаштування
+settings:
+  # Чи показувати логи про виконання дій у консоль?
+  debug: false

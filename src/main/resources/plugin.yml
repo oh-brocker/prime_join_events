@@ -1,0 +1,17 @@
+name: PrimeJoinEvents
+version: '1.0'
+main: net.primecube.primeJoinEvents.PrimeJoinEvents
+api-version: '1.20'
+author: BrockerDev
+description: "Патужний плагін на JoinEvents. Навіщо..? Най буде."
+
+commands:
+  pje:
+    description: "Головна команда керування плагіном."
+    usage: "/pje [reload|info]"
+    permission: pje.admin
+
+permissions:
+  pje.admin:
+    description: "Дозволяє перезавантажувати конфігурацію та бачити інфо."
+    default: op
